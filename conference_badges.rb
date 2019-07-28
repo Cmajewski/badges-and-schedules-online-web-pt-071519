@@ -14,8 +14,8 @@ def assign_rooms(names)
   greeting<<"Hello, #{name}! You'll be assigned to room #{room_assignment}!"
 end
 greeting
-end 
-  
+end
+
 end
 def printer
 end
