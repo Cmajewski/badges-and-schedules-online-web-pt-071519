@@ -16,6 +16,5 @@ end
 greeting
 end
 
-end
 def printer
 end
