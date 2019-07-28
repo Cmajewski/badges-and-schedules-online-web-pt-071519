@@ -16,7 +16,10 @@ end
 greeting
 end
 
-def printer
-batch_badge_creator(names)
+def printer(names)
+x=batch_badge_creator(names)
+x.each {|name| puts name}
+y=assign_rooms(names)
+y.each {|name| puts name}
 assign_rooms(names)
 end
